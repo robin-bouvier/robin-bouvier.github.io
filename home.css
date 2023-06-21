@@ -1,16 +1,39 @@
-.propos-container {
+.nav-links-links {
+  gap: var(--dl-space-space-twounits);
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.nav-links-link {
+  text-decoration: none;
+}
+.nav-links-link1 {
+  text-decoration: none;
+}
+.nav-links-link2 {
+  text-decoration: none;
+}
+@media(max-width: 767px) {
+  .nav-links-links {
+    display: none;
+  }
+}
+
+.home-container {
   width: 100%;
   display: flex;
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
 }
-.propos-navbar {
+.home-navbar {
   width: 100%;
   display: flex;
   justify-content: center;
 }
-.propos-navbar-interactive {
+.home-navbar-interactive {
   width: 100%;
   display: flex;
   position: relative;
@@ -22,7 +45,10 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.propos-branding {
+.home-navlink {
+  display: contents;
+}
+.home-branding {
   flex: 1;
   display: flex;
   max-width: 640px;
@@ -31,39 +57,37 @@
   flex-direction: row;
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: flex-start;
+  text-decoration: none;
   border-bottom-width: 1px;
 }
-.propos-text {
+.home-text {
   color: rgb(39, 39, 45);
   font-size: 30px;
   font-family: Inter;
 }
-.propos-desktop-menu {
+.home-desktop-menu {
   display: flex;
 }
-.propos-nav {
+.home-nav {
   flex: 0 0 auto;
   display: flex;
   align-items: center;
   flex-direction: row;
 }
-.propos-right {
+.home-right {
   gap: var(--dl-space-space-twounits);
   display: flex;
   align-items: center;
   flex-direction: row;
   padding-bottom: var(--dl-space-space-twounits);
 }
-.propos-nav-links {
-  text-decoration: none;
-}
-.propos-button {
+.home-button {
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
 }
-.propos-work-with-us {
+.home-work-with-us {
   cursor: pointer;
   transition: 0.3s;
   padding-top: var(--dl-space-space-unit);
@@ -73,24 +97,24 @@
   padding-bottom: var(--dl-space-space-unit);
   background-color: rgb(229, 254, 88);
 }
-.propos-work-with-us:hover {
+.home-work-with-us:hover {
   opacity: 0.5;
 }
-.propos-text01 {
+.home-text01 {
   display: flex;
   font-size: 24px;
 }
-.propos-image {
+.home-image {
   width: 100px;
   display: none;
   object-fit: cover;
 }
-.propos-burger-menu {
+.home-burger-menu {
   display: none;
   align-items: center;
   justify-content: center;
 }
-.propos-work-with-us1 {
+.home-work-with-us1 {
   cursor: pointer;
   transition: 0.3s;
   padding-top: var(--dl-space-space-unit);
@@ -100,19 +124,19 @@
   padding-bottom: var(--dl-space-space-unit);
   background-color: rgb(229, 254, 88);
 }
-.propos-work-with-us1:hover {
+.home-work-with-us1:hover {
   opacity: 0.5;
 }
-.propos-text02 {
+.home-text02 {
   display: flex;
   font-size: 24px;
 }
-.propos-image1 {
+.home-image1 {
   width: 100px;
   display: none;
   object-fit: cover;
 }
-.propos-mobile-menu {
+.home-mobile-menu {
   top: 0px;
   left: 0px;
   width: 100%;
@@ -127,19 +151,19 @@
   justify-content: space-between;
   background-color: #fff;
 }
-.propos-nav1 {
+.home-nav1 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.propos-top {
+.home-top {
   width: 100%;
   display: flex;
   align-items: center;
   margin-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
-.propos-branding1 {
+.home-branding1 {
   flex: 1;
   display: flex;
   max-width: 640px;
@@ -149,27 +173,27 @@
   justify-content: flex-start;
   border-bottom-width: 1px;
 }
-.propos-text03 {
+.home-text03 {
   color: #27272D;
   font-size: 30px;
   font-family: Inter;
 }
-.propos-menu-close {
+.home-menu-close {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.propos-icon {
+.home-icon {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
-.propos-middle {
+.home-middle {
   flex: 0 0 auto;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.propos-links {
+.home-links {
   gap: var(--dl-space-space-twounits);
   display: flex;
   position: relative;
@@ -178,7 +202,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.propos-work-with-us2 {
+.home-work-with-us2 {
   cursor: pointer;
   transition: 0.3s;
   padding-top: var(--dl-space-space-unit);
@@ -188,240 +212,130 @@
   padding-bottom: var(--dl-space-space-unit);
   background-color: rgb(229, 254, 88);
 }
-.propos-work-with-us2:hover {
+.home-work-with-us2:hover {
   opacity: 0.5;
 }
-.propos-text04 {
+.home-text04 {
   display: flex;
   font-size: 24px;
 }
-.propos-section {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  padding-top: 120px;
-  padding-left: var(--dl-space-space-oneandhalfunits);
-  padding-right: var(--dl-space-space-oneandhalfunits);
-  flex-direction: column;
-  padding-bottom: 120px;
-  background-color: #244444;
-}
-.propos-about-us {
-  gap: var(--dl-space-space-fiveunits);
+.home-hero {
+  gap: 120px;
   width: 100%;
   display: flex;
   max-width: var(--dl-size-size-maxwidth);
   align-items: flex-start;
+  padding-top: 140px;
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  padding-right: var(--dl-space-space-oneandhalfunits);
   flex-direction: column;
+  padding-bottom: 160px;
 }
-.propos-header {
-  gap: var(--dl-space-space-threeunits);
+.home-text05 {
+  color: rgb(39, 39, 45);
   width: 100%;
-  display: flex;
-  max-width: 1000px;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.propos-caption {
-  color: rgb(255, 255, 255);
-  letter-spacing: 5%;
-  text-transform: uppercase;
-}
-.propos-description {
-  color: rgb(255, 255, 255);
   font-size: 54px;
+  max-width: 1000px;
   font-style: normal;
   font-weight: 400;
-  line-height: 65px;
+  line-height: 1.5;
 }
-.propos-dna {
-  gap: var(--dl-space-space-threeunits);
+.home-hero-image {
   width: 100%;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   padding-top: var(--dl-space-space-threeunits);
-  padding-left: 140px;
+  padding-left: 180px;
+  padding-right: 180px;
   flex-direction: column;
-  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: var(--dl-space-space-threeunits);
+  justify-content: center;
+  background-color: rgba(88, 170, 254, 0.66);
 }
-.propos-description1 {
-  color: rgb(255, 255, 255);
-  font-size: 30px;
-  line-height: 54px;
-}
-.propos-description2 {
-  color: rgb(255, 255, 255);
-  font-size: 30px;
-  line-height: 54px;
-}
-.propos-link3 {
-  text-decoration: underline;
-}
-.propos-link4 {
-  text-decoration: underline;
-}
-.propos-link5 {
-  text-decoration: underline;
-}
-.propos-link6 {
-  text-decoration: underline;
-}
-.propos-gallery {
-  width: 100%;
-  display: flex;
-  position: relative;
-  align-items: flex-end;
-  flex-direction: row;
-  padding-bottom: 120px;
-}
-.propos-image2 {
+.home-image2 {
   width: 640px;
-  z-index: 10;
+  height: 540px;
   object-fit: cover;
-}
-.propos-image3 {
-  top: 370px;
-  right: 0px;
-  width: 760px;
-  bottom: 0px;
-  position: absolute;
-  object-fit: cover;
-}
-.propos-recruit {
-  gap: var(--dl-space-space-fiveunits);
-  width: 100%;
-  display: flex;
-  align-items: flex-start;
-  padding-top: var(--dl-space-space-threeunits);
-  flex-direction: column;
-}
-.propos-text27 {
-  color: rgb(255, 255, 255);
-  font-size: 54px;
-  max-width: 1000px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 65px;
 }
 @media(max-width: 991px) {
-  .propos-navbar-interactive {
+  .home-navbar-interactive {
     gap: var(--dl-space-space-fourunits);
     justify-content: center;
   }
-  .propos-text01 {
+  .home-text01 {
     line-height: 30px;
   }
-  .propos-text02 {
+  .home-text02 {
     line-height: 30px;
   }
-  .propos-text04 {
+  .home-text04 {
     line-height: 30px;
   }
-  .propos-section {
-    padding-top: var(--dl-space-space-fourunits);
-    padding-left: var(--dl-space-space-oneandhalfunits);
-    padding-right: var(--dl-space-space-oneandhalfunits);
-    padding-bottom: var(--dl-space-space-fourunits);
+  .home-hero {
+    gap: var(--dl-space-space-fourunits);
+    padding-top: var(--dl-space-space-threeunits);
+    padding-bottom: var(--dl-space-space-threeunits);
   }
-  .propos-about-us {
-    gap: var(--dl-space-space-threeunits);
-  }
-  .propos-header {
-    gap: var(--dl-space-space-oneandhalfunits);
-  }
-  .propos-caption {
-    font-size: 12px;
-  }
-  .propos-description {
+  .home-text05 {
     font-size: 32px;
-    line-height: 38px;
   }
-  .propos-text05 {
-    font-size: 32px;
-    line-height: 38px;
-  }
-  .propos-dna {
-    gap: var(--dl-space-space-oneandhalfunits);
-    padding-top: 0px;
-    padding-left: 0px;
-    padding-bottom: 0px;
-  }
-  .propos-description1 {
-    font-size: 16px;
-    line-height: 28px;
-  }
-  .propos-description2 {
-    font-size: 16px;
-    line-height: 28px;
-  }
-  .propos-recruit {
-    gap: var(--dl-space-space-threeunits);
-    padding-top: 0px;
-  }
-  .propos-text27 {
-    font-size: 32px;
-    line-height: 38px;
+  .home-hero-image {
+    padding-top: var(--dl-space-space-unit);
+    padding-left: var(--dl-space-space-threeunits);
+    padding-right: var(--dl-space-space-threeunits);
+    padding-bottom: var(--dl-space-space-unit);
   }
 }
 @media(max-width: 767px) {
-  .propos-navbar-interactive {
+  .home-navbar-interactive {
     padding-top: var(--dl-space-space-twounits);
     justify-content: space-between;
   }
-  .propos-desktop-menu {
+  .home-desktop-menu {
     display: none;
   }
-  .propos-work-with-us {
+  .home-work-with-us {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
-  .propos-text01 {
+  .home-text01 {
     display: none;
   }
-  .propos-image {
+  .home-image {
     width: 16px;
     height: 14px;
     display: flex;
   }
-  .propos-burger-menu {
+  .home-burger-menu {
     display: flex;
     align-self: flex-start;
   }
-  .propos-work-with-us1 {
+  .home-work-with-us1 {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
-  .propos-text02 {
+  .home-text02 {
     display: none;
   }
-  .propos-image1 {
+  .home-image1 {
     width: 16px;
     height: 14px;
     display: flex;
   }
-  .propos-branding1 {
+  .home-branding1 {
     max-width: 80%;
   }
-  .propos-work-with-us2 {
+  .home-work-with-us2 {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
-  .propos-image2 {
-    width: 350px;
-  }
-  .propos-image3 {
-    width: 350px;
+  .home-image2 {
+    width: auto;
+    height: 220px;
   }
 }
 @media(max-width: 479px) {
-  .propos-mobile-menu {
+  .home-mobile-menu {
     padding: 16px;
-  }
-  .propos-image2 {
-    width: 240px;
-  }
-  .propos-image3 {
-    top: 250px;
-    width: 240px;
   }
 }

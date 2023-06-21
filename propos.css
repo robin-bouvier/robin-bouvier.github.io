@@ -1,16 +1,39 @@
-.contact-container {
+.nav-links-links {
+  gap: var(--dl-space-space-twounits);
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.nav-links-link {
+  text-decoration: none;
+}
+.nav-links-link1 {
+  text-decoration: none;
+}
+.nav-links-link2 {
+  text-decoration: none;
+}
+@media(max-width: 767px) {
+  .nav-links-links {
+    display: none;
+  }
+}
+
+.propos-container {
   width: 100%;
   display: flex;
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
 }
-.contact-navbar {
+.propos-navbar {
   width: 100%;
   display: flex;
   justify-content: center;
 }
-.contact-navbar-interactive {
+.propos-navbar-interactive {
   width: 100%;
   display: flex;
   position: relative;
@@ -22,7 +45,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.contact-branding {
+.propos-branding {
   flex: 1;
   display: flex;
   max-width: 640px;
@@ -33,37 +56,37 @@
   justify-content: flex-start;
   border-bottom-width: 1px;
 }
-.contact-text {
+.propos-text {
   color: rgb(39, 39, 45);
   font-size: 30px;
   font-family: Inter;
 }
-.contact-desktop-menu {
+.propos-desktop-menu {
   display: flex;
 }
-.contact-nav {
+.propos-nav {
   flex: 0 0 auto;
   display: flex;
   align-items: center;
   flex-direction: row;
 }
-.contact-right {
+.propos-right {
   gap: var(--dl-space-space-twounits);
   display: flex;
   align-items: center;
   flex-direction: row;
   padding-bottom: var(--dl-space-space-twounits);
 }
-.contact-nav-links {
+.propos-nav-links {
   text-decoration: none;
 }
-.contact-button {
+.propos-button {
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
 }
-.contact-work-with-us {
+.propos-work-with-us {
   cursor: pointer;
   transition: 0.3s;
   padding-top: var(--dl-space-space-unit);
@@ -73,24 +96,24 @@
   padding-bottom: var(--dl-space-space-unit);
   background-color: rgb(229, 254, 88);
 }
-.contact-work-with-us:hover {
+.propos-work-with-us:hover {
   opacity: 0.5;
 }
-.contact-text01 {
+.propos-text01 {
   display: flex;
   font-size: 24px;
 }
-.contact-image {
+.propos-image {
   width: 100px;
   display: none;
   object-fit: cover;
 }
-.contact-burger-menu {
+.propos-burger-menu {
   display: none;
   align-items: center;
   justify-content: center;
 }
-.contact-work-with-us1 {
+.propos-work-with-us1 {
   cursor: pointer;
   transition: 0.3s;
   padding-top: var(--dl-space-space-unit);
@@ -100,19 +123,19 @@
   padding-bottom: var(--dl-space-space-unit);
   background-color: rgb(229, 254, 88);
 }
-.contact-work-with-us1:hover {
+.propos-work-with-us1:hover {
   opacity: 0.5;
 }
-.contact-text02 {
+.propos-text02 {
   display: flex;
   font-size: 24px;
 }
-.contact-image1 {
+.propos-image1 {
   width: 100px;
   display: none;
   object-fit: cover;
 }
-.contact-mobile-menu {
+.propos-mobile-menu {
   top: 0px;
   left: 0px;
   width: 100%;
@@ -127,19 +150,19 @@
   justify-content: space-between;
   background-color: #fff;
 }
-.contact-nav1 {
+.propos-nav1 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.contact-top {
+.propos-top {
   width: 100%;
   display: flex;
   align-items: center;
   margin-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
-.contact-branding1 {
+.propos-branding1 {
   flex: 1;
   display: flex;
   max-width: 640px;
@@ -149,27 +172,27 @@
   justify-content: flex-start;
   border-bottom-width: 1px;
 }
-.contact-text03 {
+.propos-text03 {
   color: #27272D;
   font-size: 30px;
   font-family: Inter;
 }
-.contact-menu-close {
+.propos-menu-close {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.contact-icon {
+.propos-icon {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
-.contact-middle {
+.propos-middle {
   flex: 0 0 auto;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.contact-links {
+.propos-links {
   gap: var(--dl-space-space-twounits);
   display: flex;
   position: relative;
@@ -178,7 +201,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.contact-work-with-us2 {
+.propos-work-with-us2 {
   cursor: pointer;
   transition: 0.3s;
   padding-top: var(--dl-space-space-unit);
@@ -188,137 +211,240 @@
   padding-bottom: var(--dl-space-space-unit);
   background-color: rgb(229, 254, 88);
 }
-.contact-work-with-us2:hover {
+.propos-work-with-us2:hover {
   opacity: 0.5;
 }
-.contact-text04 {
+.propos-text04 {
   display: flex;
   font-size: 24px;
 }
-.contact-book {
+.propos-section {
   width: 100%;
   display: flex;
   align-items: center;
-  padding-top: var(--dl-space-space-fiveunits);
+  padding-top: 120px;
   padding-left: var(--dl-space-space-oneandhalfunits);
   padding-right: var(--dl-space-space-oneandhalfunits);
   flex-direction: column;
-  padding-bottom: var(--dl-space-space-fiveunits);
-  background-color: rgba(88, 170, 254, 0.66);
+  padding-bottom: 120px;
+  background-color: #244444;
 }
-.contact-content {
+.propos-about-us {
+  gap: var(--dl-space-space-fiveunits);
   width: 100%;
   display: flex;
   max-width: var(--dl-size-size-maxwidth);
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.contact-left {
-  gap: var(--dl-space-space-threeunits);
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  display: flex;
-  max-width: 810px;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
-  justify-content: center;
 }
-.contact-text05 {
-  font-size: 45px;
-  font-weight: initial;
+.propos-header {
+  gap: var(--dl-space-space-threeunits);
+  width: 100%;
+  display: flex;
+  max-width: 1000px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.propos-caption {
+  color: rgb(255, 255, 255);
+  letter-spacing: 5%;
+  text-transform: uppercase;
+}
+.propos-description {
+  color: rgb(255, 255, 255);
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 400;
   line-height: 65px;
 }
-.contact-image2 {
-  height: 400px;
+.propos-dna {
+  gap: var(--dl-space-space-threeunits);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-threeunits);
+  padding-left: 140px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.propos-description1 {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  line-height: 54px;
+}
+.propos-description2 {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  line-height: 54px;
+}
+.propos-link3 {
+  text-decoration: underline;
+}
+.propos-link4 {
+  text-decoration: underline;
+}
+.propos-link5 {
+  text-decoration: underline;
+}
+.propos-link6 {
+  text-decoration: underline;
+}
+.propos-gallery {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: flex-end;
+  flex-direction: row;
+  padding-bottom: 120px;
+}
+.propos-image2 {
+  width: 640px;
+  z-index: 10;
   object-fit: cover;
 }
+.propos-image3 {
+  top: 370px;
+  right: 0px;
+  width: 760px;
+  bottom: 0px;
+  position: absolute;
+  object-fit: cover;
+}
+.propos-recruit {
+  gap: var(--dl-space-space-fiveunits);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-threeunits);
+  flex-direction: column;
+}
+.propos-text27 {
+  color: rgb(255, 255, 255);
+  font-size: 54px;
+  max-width: 1000px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 65px;
+}
 @media(max-width: 991px) {
-  .contact-navbar-interactive {
+  .propos-navbar-interactive {
     gap: var(--dl-space-space-fourunits);
     justify-content: center;
   }
-  .contact-text01 {
+  .propos-text01 {
     line-height: 30px;
   }
-  .contact-text02 {
+  .propos-text02 {
     line-height: 30px;
   }
-  .contact-text04 {
+  .propos-text04 {
     line-height: 30px;
   }
-  .contact-book {
-    padding-top: var(--dl-space-space-threeunits);
+  .propos-section {
+    padding-top: var(--dl-space-space-fourunits);
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
     padding-bottom: var(--dl-space-space-fourunits);
   }
-  .contact-content {
-    gap: var(--dl-space-space-oneandhalfunits);
-    flex-direction: column-reverse;
-    justify-content: center;
+  .propos-about-us {
+    gap: var(--dl-space-space-threeunits);
   }
-  .contact-left {
+  .propos-header {
     gap: var(--dl-space-space-oneandhalfunits);
-    align-items: center;
   }
-  .contact-text05 {
+  .propos-caption {
+    font-size: 12px;
+  }
+  .propos-description {
     font-size: 32px;
-    text-align: center;
     line-height: 38px;
   }
-  .contact-text06 {
+  .propos-text05 {
     font-size: 32px;
-    text-align: center;
     line-height: 38px;
   }
-  .contact-image2 {
-    height: 220px;
+  .propos-dna {
+    gap: var(--dl-space-space-oneandhalfunits);
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+  }
+  .propos-description1 {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .propos-description2 {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .propos-recruit {
+    gap: var(--dl-space-space-threeunits);
+    padding-top: 0px;
+  }
+  .propos-text27 {
+    font-size: 32px;
+    line-height: 38px;
   }
 }
 @media(max-width: 767px) {
-  .contact-navbar-interactive {
+  .propos-navbar-interactive {
     padding-top: var(--dl-space-space-twounits);
     justify-content: space-between;
   }
-  .contact-desktop-menu {
+  .propos-desktop-menu {
     display: none;
   }
-  .contact-work-with-us {
+  .propos-work-with-us {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
-  .contact-text01 {
+  .propos-text01 {
     display: none;
   }
-  .contact-image {
+  .propos-image {
     width: 16px;
     height: 14px;
     display: flex;
   }
-  .contact-burger-menu {
+  .propos-burger-menu {
     display: flex;
     align-self: flex-start;
   }
-  .contact-work-with-us1 {
+  .propos-work-with-us1 {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
-  .contact-text02 {
+  .propos-text02 {
     display: none;
   }
-  .contact-image1 {
+  .propos-image1 {
     width: 16px;
     height: 14px;
     display: flex;
   }
-  .contact-branding1 {
+  .propos-branding1 {
     max-width: 80%;
   }
-  .contact-work-with-us2 {
+  .propos-work-with-us2 {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
+  .propos-image2 {
+    width: 350px;
+  }
+  .propos-image3 {
+    width: 350px;
+  }
 }
 @media(max-width: 479px) {
-  .contact-mobile-menu {
+  .propos-mobile-menu {
     padding: 16px;
+  }
+  .propos-image2 {
+    width: 240px;
+  }
+  .propos-image3 {
+    top: 250px;
+    width: 240px;
   }
 }
