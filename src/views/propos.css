@@ -1,0 +1,427 @@
+.propos-container {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.propos-navbar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.propos-navbar-interactive {
+  width: 100%;
+  display: flex;
+  position: relative;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  flex-direction: row;
+  justify-content: space-between;
+}
+.propos-branding {
+  flex: 1;
+  display: flex;
+  max-width: 640px;
+  align-items: center;
+  border-color: #61616B;
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: flex-start;
+  border-bottom-width: 1px;
+}
+.propos-text {
+  color: rgb(39, 39, 45);
+  font-size: 30px;
+  font-family: Inter;
+}
+.propos-desktop-menu {
+  display: flex;
+}
+.propos-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.propos-right {
+  gap: var(--dl-space-space-twounits);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-twounits);
+}
+.propos-nav-links {
+  text-decoration: none;
+}
+.propos-button {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.propos-work-with-us {
+  cursor: pointer;
+  transition: 0.3s;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  border-radius: 70px;
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: rgb(229, 254, 88);
+}
+.propos-work-with-us:hover {
+  opacity: 0.5;
+}
+.propos-text01 {
+  display: flex;
+  font-size: 24px;
+}
+.propos-image {
+  width: 100px;
+  display: none;
+  object-fit: cover;
+}
+.propos-burger-menu {
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.propos-work-with-us1 {
+  cursor: pointer;
+  transition: 0.3s;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  border-radius: 70px;
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: rgb(229, 254, 88);
+}
+.propos-work-with-us1:hover {
+  opacity: 0.5;
+}
+.propos-text02 {
+  display: flex;
+  font-size: 24px;
+}
+.propos-image1 {
+  width: 100px;
+  display: none;
+  object-fit: cover;
+}
+.propos-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  padding: 32px;
+  z-index: 100;
+  position: fixed;
+  transform: translateX(100%);
+  transition: 0.5s;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.propos-nav1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.propos-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.propos-branding1 {
+  flex: 1;
+  display: flex;
+  max-width: 640px;
+  align-items: flex-start;
+  border-color: #61616B;
+  flex-direction: row;
+  justify-content: flex-start;
+  border-bottom-width: 1px;
+}
+.propos-text03 {
+  color: #27272D;
+  font-size: 30px;
+  font-family: Inter;
+}
+.propos-menu-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.propos-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.propos-middle {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.propos-links {
+  gap: var(--dl-space-space-twounits);
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: center;
+}
+.propos-work-with-us2 {
+  cursor: pointer;
+  transition: 0.3s;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  border-radius: 70px;
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: rgb(229, 254, 88);
+}
+.propos-work-with-us2:hover {
+  opacity: 0.5;
+}
+.propos-text04 {
+  display: flex;
+  font-size: 24px;
+}
+.propos-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 120px;
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  flex-direction: column;
+  padding-bottom: 120px;
+  background-color: #244444;
+}
+.propos-about-us {
+  gap: var(--dl-space-space-fiveunits);
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: flex-start;
+  flex-direction: column;
+}
+.propos-header {
+  gap: var(--dl-space-space-threeunits);
+  width: 100%;
+  display: flex;
+  max-width: 1000px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.propos-caption {
+  color: rgb(255, 255, 255);
+  letter-spacing: 5%;
+  text-transform: uppercase;
+}
+.propos-description {
+  color: rgb(255, 255, 255);
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 65px;
+}
+.propos-dna {
+  gap: var(--dl-space-space-threeunits);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-threeunits);
+  padding-left: 140px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.propos-description1 {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  line-height: 54px;
+}
+.propos-description2 {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  line-height: 54px;
+}
+.propos-link3 {
+  text-decoration: underline;
+}
+.propos-link4 {
+  text-decoration: underline;
+}
+.propos-link5 {
+  text-decoration: underline;
+}
+.propos-link6 {
+  text-decoration: underline;
+}
+.propos-gallery {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: flex-end;
+  flex-direction: row;
+  padding-bottom: 120px;
+}
+.propos-image2 {
+  width: 640px;
+  z-index: 10;
+  object-fit: cover;
+}
+.propos-image3 {
+  top: 370px;
+  right: 0px;
+  width: 760px;
+  bottom: 0px;
+  position: absolute;
+  object-fit: cover;
+}
+.propos-recruit {
+  gap: var(--dl-space-space-fiveunits);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-threeunits);
+  flex-direction: column;
+}
+.propos-text27 {
+  color: rgb(255, 255, 255);
+  font-size: 54px;
+  max-width: 1000px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 65px;
+}
+@media(max-width: 991px) {
+  .propos-navbar-interactive {
+    gap: var(--dl-space-space-fourunits);
+    justify-content: center;
+  }
+  .propos-text01 {
+    line-height: 30px;
+  }
+  .propos-text02 {
+    line-height: 30px;
+  }
+  .propos-text04 {
+    line-height: 30px;
+  }
+  .propos-section {
+    padding-top: var(--dl-space-space-fourunits);
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-fourunits);
+  }
+  .propos-about-us {
+    gap: var(--dl-space-space-threeunits);
+  }
+  .propos-header {
+    gap: var(--dl-space-space-oneandhalfunits);
+  }
+  .propos-caption {
+    font-size: 12px;
+  }
+  .propos-description {
+    font-size: 32px;
+    line-height: 38px;
+  }
+  .propos-text05 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+  .propos-dna {
+    gap: var(--dl-space-space-oneandhalfunits);
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+  }
+  .propos-description1 {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .propos-description2 {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .propos-recruit {
+    gap: var(--dl-space-space-threeunits);
+    padding-top: 0px;
+  }
+  .propos-text27 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+}
+@media(max-width: 767px) {
+  .propos-navbar-interactive {
+    padding-top: var(--dl-space-space-twounits);
+    justify-content: space-between;
+  }
+  .propos-desktop-menu {
+    display: none;
+  }
+  .propos-work-with-us {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .propos-text01 {
+    display: none;
+  }
+  .propos-image {
+    width: 16px;
+    height: 14px;
+    display: flex;
+  }
+  .propos-burger-menu {
+    display: flex;
+    align-self: flex-start;
+  }
+  .propos-work-with-us1 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .propos-text02 {
+    display: none;
+  }
+  .propos-image1 {
+    width: 16px;
+    height: 14px;
+    display: flex;
+  }
+  .propos-branding1 {
+    max-width: 80%;
+  }
+  .propos-work-with-us2 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .propos-image2 {
+    width: 350px;
+  }
+  .propos-image3 {
+    width: 350px;
+  }
+}
+@media(max-width: 479px) {
+  .propos-mobile-menu {
+    padding: 16px;
+  }
+  .propos-image2 {
+    width: 240px;
+  }
+  .propos-image3 {
+    top: 250px;
+    width: 240px;
+  }
+}
